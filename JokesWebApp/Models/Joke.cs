@@ -1,11 +1,14 @@
-public class Joke
+namespace JokesWebApp.Models
 {
-    public int Id { get; set; }
-    public string JokeQuestion { get; set; }
-    public string JokeAnswer { get; set; }
-
-    public Joke()
+    public class Joke
     {
-        
+        public int Id { get; set; }
+        public string JokeQuestion { get; set; }
+        public string JokeAnswer { get; set; }
+
+        public Joke()
+        {
+
+        }
     }
 }
